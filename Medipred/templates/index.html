@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin Sans:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre Medium:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Britannic Bold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Actor:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Scheherazade:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Angkor:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre SemiBold:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Segoe UI";
+        src: url("GT Planar-normal-400-100.otf");
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="homepage">
+      <div class="homepage-child"></div>
+
+
+      <!-- ////////////////////NAVBAR/////////////////////////// -->
+      <div class="navbar">
+        <div class="image-1-parent">
+          <img class="image-1-icon" alt="" src="{{ url_for('static', filename='css/public/image 1.png') }}" />
+          <div class="medipred">MediPred</div>
+        </div>
+        <div class="button1"><a href="#detect-disease">
+          <b class="login1">CHECK NOW</b></a>
+        </div>
+        <div class="right">
+          <div class="links">
+            <div class="button2"> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8950225/">
+              <b class="login2">How it works</b></a>
+            </div>
+            <div class="button2"><a href="https://www.unicef.org/health/community-health">
+              <b class="login2">Health community</b></a>
+            </div>
+            <div class="button2"><a href="{{ url_for('static', filename='css/public/aboutUs.html') }}">
+              
+              <b class="login2">About us</b></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- ////////////////MAIN HEADING/////////////////////////// -->
+      <b class="main-title"
+        >Predicting Health, Defining Futures</b
+      >
+      <div class="main-body-container">
+        <p class="main-body">
+          Harnessing Technology to Detect Diseases Early and
+        </p>
+        <p class="main-body">
+          Empower Lives Experience the future of healthcare
+        </p>
+        <p class="main-body">
+          with our Disease Detector. Early insights for a healthier
+        </p>
+        <p class="main-body">tomorrow, today.</p>
+      </div>
+      <button class="detect-now-wrapper">
+        <div class="detect-now"><a href="#detect-disease">
+          <b>Detect Now</b></a></div>
+      </button>
+      <button class="learn-more-wrapper">
+        <div class="learn-more"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8950225/">Learn More</a></div>
+      </button>
+      <img
+        class="medical-icon"
+        alt="icon"
+        src="{{ url_for('static', filename='css/public/medical-5459654_1920 2.png') }}"
+      />
+
+      <!-- //////////////////ACTIVE USERS////////////////////////// -->
+      <div class="active-users-parent">
+        <b class="active-users">
+          <p class="main-body">Early Detection </p>
+          <p class="main-body"> and Prevention</p>
+        </b>
+        <b class="active-users2">
+          <p class="main-body">Personalized</p>
+          <p class="main-body">Healthcare</p>
+        </b>
+        <b class="active-users4">
+          <p class="main-body">Reduced </p>
+          <p class="main-body">Healthcare Costs</p>
+        </b>
+      </div>
+
+      
+      <img class="infoImage" alt="" src="{{ url_for('static', filename='css/public/happy.png') }}" />
+      
+
+
+      <!--//////////////// info disease///////////// -->
+      
+      <div class="inspirations">
+        <div class="products">
+          <div class="image">
+          </div>
+          <img
+            class="products-child"
+            alt="ccc"
+            src="{{ url_for('static', filename='css/public/Rectangle 24.png') }}"
+          />
+
+          
+        </div>
+        <button class="cta">
+          <div class="explore-more"><a href="https://www.niams.nih.gov/health-topics/all-diseases">Explore More</a></div>
+        </button>
+        <div class="title">
+          <b class="title1">
+            <p class="main-body">Information about</p>
+            <p class="main-body">50+ disease</p>
+          </b>
+          <div class="subtitle">
+            Over the years, science and technology have improved to such an extent that we have been able to identify the causes, symptoms and cures for various diseases with a high degree of success.
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ///////////////WELLNESS INSIGHTS//////////////////////////// -->
+      <div class="tips-trick">
+        <div class="title2">Wellness Insights</div>
+        <div class="articles">
+
+          <div class="rectangle-parent">
+            <img class="frame-item" 
+                 alt="" 
+                 src="{{ url_for('static', filename='css/public/diet.png') }}"
+                 
+                 
+              />
+            <div class="frame-inner"></div>
+            <a href="https://www.who.int/health-topics/nutrition#tab=tab_1">
+            <button class="product-name">More Info</button></a>
+            <div class="product-name1">Nutrition</div>
+          </div>
+
+          <div class="rectangle-group">
+            <img
+              class="frame-item"
+              alt=""
+              src="{{ url_for('static', filename='css/public/mentalhealth.png') }}"
+               
+            />
+            <div class="frame-inner"></div>
+            <a href="https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response">
+            <button class="product-name">More Info</button></a>
+            <div class="product-name3">Mental Wellness</div>
+          </div>
+
+          <div class="tips-2">
+            <div class="rectangle-container">
+              <img
+                class="frame-item"
+                alt=""
+                src="{{ url_for('static', filename='css/public/fitness (1).png') }}"
+              />
+              <div class="frame-inner"></div>
+              <a href="https://www.healthline.com/fitness">
+              <button class="product-name">More Info</button></a>
+              <div class="product-name5">Fitness</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- ////////detect-diseases//////// -->
+<div  class="detect" id="detect">
+      <b class="detect-diseases" id="detect-disease">Detect diseases</b>
+      <div class="main-body-container1">
+        <p class="main-body">
+          Harnessing Technology to Detect Diseases Early and
+        </p>
+        <p class="main-body">
+          Empower Lives Experience the future of healthcare
+        </p>
+        <p class="main-body">
+          with our Disease Detector. Early insights for a healthier
+        </p>
+        <p class="main-body">tomorrow, today.</p>
+      </div>
+
+      <!-- 1 -->
+      <div class="card-parent">
+        <div class="investor-card1">
+          <div class="img">
+            <img class="img-icon" alt="" src="{{ url_for('static', filename='css/public/images.jpeg') }}" />
+          </div>
+          <div class="content1">
+            <div class="title3">
+              <b class="oxalis">Vector-Borne Diseases</b>
+              <b class="brooklyn-ny"> </b>
+            </div>
+            <div class="descp">
+              <div class="sub-text">
+                Vector-borne diseases are illnesses transmitted to humans by
+                vectors like mosquitoes, ticks, carrying pathogens like
+                malaria or Lyme disease.
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="/vector">
+        <button class="button7">
+          <b class="login7">CHECK</b>
+        </button></a>
+      </div>
+
+      <!-- 2 -->
+      <div class="investor-card-group">
+        <div class="investor-card1">
+          <div class="img">
+            <img class="img-icon" alt="" src="{{ url_for('static', filename='css/public/Congestive_Heart_Failuref.jpg') }}" />
+          </div>
+          <div class="content1">
+            <div class="title3">
+              <b class="oxalis">Heart disease</b>
+              <div class="brooklyn-ny1"></div>
+            </div>
+            <div class="descp">
+              <div class="sub-text">
+                "Heart disease encompasses various conditions that impact the
+                heart's function and is a major global cause of death."
+              </div>
+            </div>
+          </div>
+        </div><a href="/heart">
+        <button class="button7">
+          <b class="login7">CHECK</b>
+        </button></a>
+      </div>
+      
+         <!-- 1 
+      <div class="card-parent">
+        <div class="investor-card1">
+          <div class="img">
+            <img class="img-icon" alt="" src="{{ url_for('static', filename='css/public/images.jpeg') }}" />
+            
+          </div>
+          <div class="content1">
+            <div class="title3">
+              <b class="oxalis">Vector-Borne Diseases</b>
+              <b class="brooklyn-ny"> </b>
+            </div>
+            <div class="descp">
+              <div class="sub-text">
+                Vector-borne diseases are illnesses transmitted to humans by
+                vectors like mosquitoes, ticks, carrying pathogens like
+                malaria or Lyme disease.
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="button7"><a href="/vector">
+          <b class="login7">CHECK</b>
+        </button>
+      </div>
+
+      
+
+
+      <div class="investor-card-group">
+        <div class="investor-card1">
+          <div class="img">
+            <img class="img-icon" alt="" src="{{ url_for('static', filename='css/public/Congestive_Heart_Failuref.jpg') }}" />
+          </div>
+          <div class="content1">
+            <div class="title3">
+              <b class="oxalis">Heart disease</b>
+              <div class="brooklyn-ny1"></div>
+            </div>
+            <div class="descp">
+              <div class="sub-text">
+                "Heart disease encompasses various conditions that impact the
+                heart's function and is a major global cause of death."
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="button7"><a href="/heart">
+          <b class="login7">CHECK</b></a>
+        </button>
+      </div> 
+
+ 
+      <div class="investor-card-group">
+        <div class="investor-card1">
+          <div class="img">
+            <img class="img-icon" alt="" src="{{ url_for('static', filename='css/public/Congestive_Heart_Failuref.jpg') }}" />
+            
+          </div>
+          <div class="content1">
+            <div class="title3">
+              <b class="oxalis">Heart disease</b>
+              <div class="brooklyn-ny1"></div>
+            </div>
+            <div class="descp">
+              <div class="sub-text">
+                "Heart disease encompasses various conditions that impact the
+                heart's function and is a major global cause of death."
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="button7">
+          <div class="login7"><a href="/heart">
+          <b >CHECK</b></a></div>
+        </button>
+      </div> 
+    -->
+
+      <!-- 3 -->
+      <div class="investor-card-container">
+        <div class="investor-card1">
+          <div class="img">
+            <img class="img-icon" alt="" src="{{ url_for('static', filename='css/public/diabetes.png') }}" />
+            
+          </div>
+          <div class="content1">
+            <div class="title3">
+              <b class="oxalis">Diabetes</b>
+              <div class="brooklyn-ny1"></div>
+            </div>
+            <div class="descp">
+              <div class="sub-text">
+                Diabetes is a chronic metabolic condition characterized by high
+                blood sugar levels.
+              </div>
+            </div>
+          </div>
+        </div><a href="/diabetes">
+        <button class="button7">
+          <div class="login7">
+          <b >CHECK</b></div>
+        </button></a>
+      </div>
+
+      
+
+      <!-- 4-->
+      <div class="frame-div">
+        <div class="investor-card1">
+          <div class="img">
+            <img class="img-icon" alt="" src="{{ url_for('static', filename='css/public/Img.png') }}" />
+            
+          </div>
+          <div class="content1">
+            <div class="title3">
+              <b class="oxalis">COVID-19</b>
+              <b class="brooklyn-ny1"></b>
+            </div>
+            <div class="descp">
+              <div class="sub-text">
+                COVID-19 is a highly contagious respiratory illness caused by
+                the SARS-CoV-2 virus, leading to a global pandemic
+              </div>
+            </div>
+          </div>
+        </div><a href="/covid">
+        <button class="button7">
+          <div class="login7">
+          <b >CHECK</b></div>
+        </button></a>
+      </div>
+
+      <!-- 4 -->
+      <div class="card-parent1">
+        <div class="investor-card1">
+          <div class="img">
+            <img class="img-icon" alt="" src="{{ url_for('static', filename='css/public/adobestock_293584799.jpg') }}" />
+            
+          </div>
+          <div class="content1">
+            <div class="title3">
+              <b class="oxalis">Breast Cancer</b>
+              <div class="brooklyn-ny1"></div>
+            </div>
+            <div class="descp">
+              <div class="sub-text">
+                Cancer is unchecked cell growth that can invade tissues and
+                spread throughout the body.
+              </div>
+            </div>
+          </div>
+        </div><a href="/cancer">
+        <button class="button7">
+          <div class="login7">
+          <b >CHECK</b></div>
+        </button></a>
+      </div>
+    </div>
+    
+
+      <!-- ///footer//// -->
+      <div class="stay-updated-parent">
+        <div class="stay-updated">
+          <b class="stay-updated1">Stay Updated</b>
+          <div class="searchbar">
+            <input class="searchbar-child" type="text" />
+
+            <button class="searchbar-item"></button>
+            <img
+            class="search-icon"
+              alt=""
+              src="{{ url_for('static', filename='css/public/icons8-search-50.png') }}"
+              
+            />
+
+            <div class="placeholder">Enter your email</div>
+          </div>
+        </div>
+        <div class="stay-connected">
+          <b class="stay-connected1">Stay Connected</b>
+          <div class="div">Facebook</div>
+          <div class="div">Instagram</div>
+          <div class="div">Twitter</div>
+        </div>
+        <div class="account">
+          <b class="stay-connected1">Account</b>
+          <div class="div">medipred@gmail.com</div>
+          <div class="div">pred.help@gmail.com</div>
+        </div>
+        <div class="menu">
+          <b class="stay-connected1">Menu</b>
+          <div class="div">How it work</div>
+          <div class="div">Health information</div>
+          <div class="div">Why health is important</div>
+          <div class="div">Why we need Medipred</div>
+          <div class="div">Terms & Policy</div>
+        </div>
+        <div class="about">
+          <div class="medipredcom">www.medipred.com</div>
+          <b class="symptocast">MediPred</b>
+          <div class="copyright">
+           Copyright @MediPred
+          </div>
+          <div class="contact">
+            Contact Us:
+            <div class="div">+91347267</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+  </body>
+</html>

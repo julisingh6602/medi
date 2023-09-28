@@ -1,0 +1,76 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+body {
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9f9fdbb;
+    /* background: linear-gradient(255.49deg, rgb(143, 156, 223), rgba(19, 249, 249, 0) 69.27%); */
+  }
+
+  .main {
+    background-color: #d8e6ec;
+    width: 600px;
+    margin: 30px auto;
+    padding: 10px 100px 10px 100px;
+  }
+
+  h1 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(136, 136, 138);
+  }
+p{
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    margin: 5px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    margin-left: -35px;
+
+}
+  .input-form {
+    margin-top: 20px;
+    padding: 10px;
+    color: rgb(67, 67, 68);;
+    font-weight:500 ;
+    font-size: 18px;
+  }
+
+  .input-form label {
+    display: block;
+    margin-bottom: 5px;
+    margin: 20px;
+  }
+  .input-form input {
+    width: 100%;
+    border-radius:10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+   
+  }
+
+  .input-form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  button[type="submit"] {
+    font-size: 16px;
+    margin: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
